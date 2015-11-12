@@ -11,6 +11,12 @@ return id /forsendelse/metadata {json med feltene i webservicen}
 
 /forsendelse/id/send returnerer ok om det er sendt.
 
+### Metoder i dagens løsning
+* sendForsendelse
+* retriveForsendelseStatus
+* retriveForsendelseHistorikk
+* setForsendelseLestAvEksterntSystem
+
 ### SendForsendelse SOAP-kall:
 
 ```xml
