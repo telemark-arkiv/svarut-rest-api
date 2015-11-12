@@ -42,7 +42,7 @@ return id /forsendelse/metadata {json med feltene i webservicen}
                <navn>Navn</navn>
                <postnr>5258</postnr>
                <poststed>Poststed</poststed>
-               <fodselsnr>04095800721</fodselsnr>
+               <fodselsnr>04095800000/fodselsnr>
             </mottaker>
             <printkonfigurasjon>
                <brevtype>APOST</brevtype>
@@ -63,7 +63,7 @@ return id /forsendelse/metadata {json med feltene i webservicen}
 | /svarut/v1/forsendelse/{id}/historie | Error | Returnerer forsendelse historikk |
 | /svarut/v1/forsendelse/{id}/lestEksterntSystem | Setter forsendelse lest | Error |
 
-```xml
+```json
 var forsendelse = {
   tittel: '',
   angivendeSystem: '',
