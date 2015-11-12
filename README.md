@@ -53,3 +53,10 @@ return id /forsendelse/metadata {json med feltene i webservicen}
    </soap:Body>
 </soap:Envelope>
 ```
+# REST-forslag
+| HTTP METHOD | POST            | GET       |
+| ----------- | --------------- | --------- |
+| /svarut/v1/forsendelse | Lag ny forsendelse. Send. Returner ID | Error |
+| /svarut/v1/forsendelse/{id} | Error | Returnerer forsendelse status |
+| /svarut/v1/forsendelse/{id}/historie | Error | Returnerer forsendelse historikk |
+| /svarut/v1/forsendelse/{id}/lestEksterntSystem | Setter forsendelse lest | Error |
