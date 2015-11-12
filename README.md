@@ -63,7 +63,7 @@ return id /forsendelse/metadata {json med feltene i webservicen}
 | /svarut/v1/forsendelse/{id}/historie | Error | Returnerer forsendelse historikk |
 | /svarut/v1/forsendelse/{id}/lestEksterntSystem | Setter forsendelse lest | Error |
 
-```json
+```js
 var forsendelse = {
   tittel: '',
   angivendeSystem: '',
