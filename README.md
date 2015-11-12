@@ -1,3 +1,5 @@
+# Kladd
+
 ## Relevante lenker
 * https://kurs.kommit.no/mod/page/view.php?id=780
 
@@ -60,3 +62,46 @@ return id /forsendelse/metadata {json med feltene i webservicen}
 | /svarut/v1/forsendelse/{id} | Error | Returnerer forsendelse status |
 | /svarut/v1/forsendelse/{id}/historie | Error | Returnerer forsendelse historikk |
 | /svarut/v1/forsendelse/{id}/lestEksterntSystem | Setter forsendelse lest | Error |
+
+```xml
+var forsendelse = {
+  tittel: '',
+  angivendeSystem: '',
+  konteringsKode: '',
+  kunDigitalLevering: true,
+  kryptert: false,
+  krevNiva4Innlogging: false,
+  mottaker: {
+    type: 'privatPerson',
+    navn: '',
+    adresse1: '',
+    adresse2: '',
+    adresse3: '',
+    postnr: '',
+    postSted: '',
+    land: '',
+    fodselsNr: '',
+    orgNr: ''
+  },
+  printKonfigurasjon: {
+    dobbeltsidig: true,
+    fargePrint: true,
+    brevType: 'BPOST'
+  },
+  lenker: [
+    {
+      ledetekst: '',
+      urlLenke: '',
+      urlTekst: ''
+    }
+  ],
+  dokumenter: [
+    {
+      filnavn: '',
+      mimetype: '',
+      giroarkSider: '',
+      data: '' //base64 data
+    }
+  ]
+}
+```
