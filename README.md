@@ -58,10 +58,10 @@ return id /forsendelse/metadata {json med feltene i webservicen}
 # REST-forslag
 | HTTP METHOD | POST            | GET       |
 | ----------- | --------------- | --------- |
-| /svarut/v1/forsendelse | Lag ny forsendelse. Send. Returner ID | Error |
-| /svarut/v1/forsendelse/{id} | Error | Returnerer forsendelse status |
-| /svarut/v1/forsendelse/{id}/historie | Error | Returnerer forsendelse historikk |
-| /svarut/v1/forsendelse/{id}/lestEksterntSystem | Setter forsendelse lest | Error |
+| /svarut/v1/forsendelser | Lag ny forsendelse. Send. Returner ID | Error |
+| /svarut/v1/forsendelser/{id} | Error | Returnerer forsendelse status |
+| /svarut/v1/forsendelser/{id}/historie | Error | Returnerer forsendelse historikk |
+| /svarut/v1/forsendelser/{id}/lestEksterntSystem | Setter forsendelse lest | Error |
 
 ```js
 var forsendelse = {
